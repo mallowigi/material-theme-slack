@@ -1,11 +1,12 @@
 repo_name: mallowigi/mtslack
-report_id: 9a8b6dc8574db80a4a80e3fe61f461c1
+report_id: cd60541ba3d38bdd42a8a43da9eeaf80
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T13:14:24+00:00'
+timestamp: '2024-02-29T18:50:33+00:00'
 requested_by: mallowigi
 provider: github
 branch: master
-detected_tools_count: 33
+detected_tools_count: 35
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mallowigi/mtslack
   detection_source: Repo Metadata
 - name: Sass
   description: Syntactically Awesome Style Sheets
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/package.json
   detection_source: package.json
   last_updated_by: mallowigi
   last_updated_on: 2019-07-15 19:43:37.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/.idea/whitesource/WebStormUsageMetrics.txt
   detection_source: ".idea/whitesource/WebStormUsageMetrics.txt"
   last_updated_by: Elior
   last_updated_on: 2021-06-25 14:52:43.000000000 Z
@@ -49,6 +53,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/package.json
   detection_source: package.json
   last_updated_by: mallowigi
   last_updated_on: 2019-07-15 19:43:37.000000000 Z
@@ -60,9 +65,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mallowigi/mtslack
   detection_source: Repo Metadata
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 3.0.3
   license: MIT
@@ -111,6 +117,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/package.json
   detection_source: package.json
   last_updated_by: mallowigi
   last_updated_on: 2019-07-15 19:43:37.000000000 Z
@@ -122,6 +129,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/.idea/whitesource/WebStormUsageMetrics.txt
   detection_source: ".idea/whitesource/WebStormUsageMetrics.txt"
   last_updated_by: Elior
   last_updated_on: 2021-06-25 14:52:43.000000000 Z
@@ -143,6 +151,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/6650/19343.jpeg
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/package.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2023-09-08 18:43:13.000000000 Z
@@ -152,6 +161,35 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Elior
+  last_updated_on: 2023-09-08 18:43:13.000000000 Z
+- name: browserslist
+  description: Share target browsers between different front-end tools
+  package_url: https://www.npmjs.com/browserslist
+  version: 4.21.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Elior
+  last_updated_on: 2023-09-08 18:43:13.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/mallowigi/mtslack/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2023-09-08 18:43:13.000000000 Z
