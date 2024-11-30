@@ -1,6 +1,6 @@
 {
   "name": "mtslack",
-  "version": "31.1.0",
+  "version": "31.1.1",
   "description": "Material themes (and others) for Slack!",
   "main": "main.js",
   "type": "module",
@@ -73,7 +73,7 @@
     "cache": "~/.npm"
   },
   "devDependencies": {
-    "browserslist": "4.21.10",
+    "browserslist": "4.23.1",
     "css-what": "6.1.0",
     "eslint": "8.48.0",
     "eslint-config-oclif": "4.0.0",
